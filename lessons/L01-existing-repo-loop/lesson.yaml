@@ -1,0 +1,15 @@
+id: L01
+title: "从已有代码仓开始：Coding Agent 研发最小闭环"
+owner: "TBD"
+release_date: "TBD"
+estimated_prep_time: "2-4h"
+difficulty: "easy"
+has_slides: true
+has_exercise: true
+required_artifacts:
+  - "exercise/context.md"
+  - "exercise/validation_report.md"
+validation:
+  entrypoint: "exercise/validators/validate.sh"
+notes:
+  - "练习初始状态包含一个故意保留的 bug，验证脚本初始应失败。"

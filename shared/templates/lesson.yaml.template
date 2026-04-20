@@ -1,0 +1,15 @@
+id: Lxx
+title: "课程名称"
+owner: "owner-name"
+release_date: "YYYY-MM-DD"
+estimated_prep_time: "2-4h"
+difficulty: "easy|medium|hard"
+has_slides: true
+has_exercise: true
+required_artifacts:
+  - "exercise/context.md"
+  - "exercise/validation_report.md"
+validation:
+  entrypoint: "exercise/validators/validate.sh"
+notes:
+  - "本文件为 lesson.yaml 模板，请复制到具体课程目录后修改。"

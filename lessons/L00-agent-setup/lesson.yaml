@@ -1,0 +1,16 @@
+id: L00
+title: "Coding Agent 安装配置与基础体验"
+owner: "TBD"
+release_date: "TBD"
+estimated_prep_time: "1-2h"
+difficulty: "easy"
+has_slides: true
+has_exercise: true
+required_artifacts:
+  - "exercise/context.md"
+  - "exercise/agent_setup_report.md"
+validation:
+  entrypoint: "exercise/validators/validate.sh"
+notes:
+  - "本课用于统一工具环境和基础使用方式。"
+  - "正式发布前请补充团队实际可用的模型服务、代理和 skill 下载方式。"
