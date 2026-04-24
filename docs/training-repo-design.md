@@ -46,6 +46,15 @@ lessons/Lxx-topic/
 | `exercise/` | 本节课练习项目、任务说明、测试和验证脚本 |
 | `archive/` | 课堂问题、优秀作业、课后补充材料 |
 
+当前仓库内已经提供的课程样例使用 `demo-Lxx-topic/` 命名，例如：
+
+```text
+lessons/demo-L00-agent-setup/
+lessons/demo-L01-existing-repo-loop/
+```
+
+这样可以明确区分“仓库里的示例材料”和“后续由主讲人补充的正式课程目录”。
+
 ## 四、课程设计原则
 
 每节课应围绕一个真实研发任务，而不是围绕一个孤立 AI 功能点。
@@ -85,7 +94,7 @@ lessons/Lxx-topic/
 每节课的练习都应提供统一验证入口：
 
 ```bash
-cd lessons/Lxx-topic/exercise
+cd lessons/demo-L01-existing-repo-loop/exercise
 ./validators/validate.sh
 ```
 

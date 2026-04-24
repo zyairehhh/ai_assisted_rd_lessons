@@ -12,4 +12,5 @@ required_artifacts:
 validation:
   entrypoint: "exercise/validators/validate.sh"
 notes:
+  - "本目录是示例课程材料，正式版本建议由主讲人维护在 lessons/L01-existing-repo-loop/ 下。"
   - "练习初始状态包含一个故意保留的 bug，验证脚本初始应失败。"

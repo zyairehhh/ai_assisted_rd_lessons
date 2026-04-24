@@ -2,6 +2,8 @@
 
 本仓库用于归档数据库研发团队 AI 辅助研发培训材料，承载课程讲义、PPT、练习项目、自动化验证脚本、示例 rules、示例 skills 和知识库样例。
 
+当前仓库中已经提供的课程目录是示例材料，因此统一使用 `demo-LXX-*` 命名。后续正式课程材料由各主讲人负责补充，建议使用 `LXX-*` 正式目录名。
+
 仓库定位不是产品代码仓，而是一个面向培训交付的 monorepo：
 
 - 每节课一个目录，课程材料和实战练习放在一起。
@@ -34,16 +36,9 @@ ai-assisted-rd-training/
 │   └── training-repo-design.md
 ├── lessons/
 │   ├── README.md
-│   ├── L00-agent-setup/
-│   ├── L01-existing-repo-loop/
-│   ├── L02-new-repo-workbench/
-│   ├── L03-requirement-to-code/
-│   ├── L04-review-refactor/
-│   ├── L05-test-design/
-│   ├── L06-debug-analysis/
-│   ├── L07-build-skill/
-│   ├── L08-build-knowledge-base/
-│   └── L09-capstone/
+│   ├── demo-L00-agent-setup/
+│   ├── demo-L01-existing-repo-loop/
+│   └── ...
 ├── shared/
 │   ├── templates/
 │   ├── example-skills/
@@ -54,19 +49,26 @@ ai-assisted-rd-training/
     └── pull_request_template.md
 ```
 
-第一期培训采用“课程和练习放在一起”的结构。后续如果某个练习需要被多节课复用，再考虑抽取为公共 case 或共享练习项目。
+第一期培训采用“课程和练习放在一起”的结构。当前仓库只保留少量 demo 目录用于展示设计，后续如果某个练习需要被多节课复用，再考虑抽取为公共 case 或共享练习项目。
 
 ## 课程目录约定
 
-每节课目录建议包含：
+正式课程目录建议包含：
 
 ```text
 lessons/L03-requirement-to-code/
+...
+```
+
+当前仓库中的示例目录则使用：
+
+```text
+lessons/demo-L01-existing-repo-loop/
 ├── README.md
 ├── lesson.yaml
 ├── slides/
-│   ├── L03-requirement-to-code.pptx
-│   └── L03-requirement-to-code.pdf
+│   ├── demo-L01-existing-repo-loop.pptx
+│   └── demo-L01-existing-repo-loop.pdf
 ├── docs/
 │   ├── handout.md
 │   ├── faq.md
@@ -86,7 +88,7 @@ lessons/L03-requirement-to-code/
 
 ## 学员使用方式
 
-1. 进入对应课程目录，例如 `lessons/L03-requirement-to-code/`。
+1. 进入对应课程目录，例如当前示例目录 `lessons/demo-L01-existing-repo-loop/`。
 2. 阅读课程 `README.md` 和 `docs/handout.md`。
 3. 浏览课程 PDF。
 4. 进入 `exercise/` 完成练习。

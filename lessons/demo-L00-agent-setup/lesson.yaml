@@ -12,5 +12,6 @@ required_artifacts:
 validation:
   entrypoint: "exercise/validators/validate.sh"
 notes:
+  - "本目录是示例课程材料，正式版本建议由主讲人维护在 lessons/L00-agent-setup/ 下。"
   - "本课用于统一工具环境和基础使用方式。"
   - "正式发布前请补充团队实际可用的模型服务、代理和 skill 下载方式。"

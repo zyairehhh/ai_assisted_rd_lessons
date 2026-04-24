@@ -1,11 +1,11 @@
 # Slides
 
-本目录用于存放 L00 的 PPT 源文件和导出的 PDF。
+本目录用于存放 demo-L00 示例课的 PPT 源文件和导出的 PDF。
 
 建议文件：
 
-- `L00-agent-setup.pptx`
-- `L00-agent-setup.pdf`
+- `demo-L00-agent-setup.pptx`
+- `demo-L00-agent-setup.pdf`
 
 建议 slides 内容：
 

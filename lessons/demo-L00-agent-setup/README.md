@@ -1,5 +1,7 @@
 # L00 Coding Agent 安装配置与基础体验
 
+本目录是示例课程材料，因此使用 `demo-L00-agent-setup` 目录名。正式版本可由主讲人在 `lessons/L00-agent-setup/` 下维护。
+
 ## 本课目标
 
 本课是正式实战课前的环境准备和基础体验课。学员完成后应能够：
@@ -37,7 +39,7 @@
 ## 练习入口
 
 ```bash
-cd lessons/L00-agent-setup/exercise
+cd lessons/demo-L00-agent-setup/exercise
 ```
 
 先阅读：

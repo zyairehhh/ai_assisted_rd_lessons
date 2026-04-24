@@ -13,16 +13,28 @@
 
 ## 二、课程目录规范
 
-每节课目录应位于 `lessons/` 下，命名格式：
+正式课程目录应位于 `lessons/` 下，命名格式：
 
 ```text
 Lxx-short-topic
 ```
 
-示例：
+当前仓库里的示例课程目录建议使用：
+
+```text
+demo-Lxx-short-topic
+```
+
+正式目录示例：
 
 ```text
 lessons/L03-requirement-to-code/
+```
+
+示例目录示例：
+
+```text
+lessons/demo-L00-agent-setup/
 ```
 
 每节课至少包含：
@@ -105,7 +117,7 @@ validation:
 每个练习必须提供统一入口：
 
 ```bash
-cd lessons/Lxx-topic/exercise
+cd lessons/demo-L01-existing-repo-loop/exercise
 ./validators/validate.sh
 ```
 

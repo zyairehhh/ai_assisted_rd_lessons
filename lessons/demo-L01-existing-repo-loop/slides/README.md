@@ -1,11 +1,11 @@
 # Slides
 
-本目录用于存放 L01 的 PPT 源文件和导出的 PDF。
+本目录用于存放 demo-L01 示例课的 PPT 源文件和导出的 PDF。
 
 建议文件：
 
-- `L01-existing-repo-loop.pptx`
-- `L01-existing-repo-loop.pdf`
+- `demo-L01-existing-repo-loop.pptx`
+- `demo-L01-existing-repo-loop.pdf`
 
 建议 slides 内容：
 

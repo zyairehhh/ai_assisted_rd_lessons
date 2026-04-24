@@ -1,5 +1,7 @@
 # L01 从已有代码仓开始：Coding Agent 研发最小闭环
 
+本目录是示例课程材料，因此使用 `demo-L01-existing-repo-loop` 目录名。正式版本可由主讲人在 `lessons/L01-existing-repo-loop/` 下维护。
+
 ## 本课目标
 
 本课是第一堂正式实战课。目标是让学员在一个已有代码仓中完成一次完整研发闭环：
@@ -36,7 +38,7 @@
 ## 练习入口
 
 ```bash
-cd lessons/L01-existing-repo-loop/exercise
+cd lessons/demo-L01-existing-repo-loop/exercise
 ```
 
 阅读：
