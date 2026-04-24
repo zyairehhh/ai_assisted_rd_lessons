@@ -1,0 +1,13 @@
+{
+  "name": "skill0-paper-sharing-slides",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "node src/skill0_paper_sharing.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "^3.12.0"
+  }
+}
+
