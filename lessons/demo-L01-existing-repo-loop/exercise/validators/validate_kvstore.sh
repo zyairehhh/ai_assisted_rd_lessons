@@ -11,7 +11,8 @@ fail() {
 
 command -v python3 >/dev/null 2>&1 || fail "python3 is required"
 
-PYTHONPATH="$ROOT_DIR/src" python3 -m unittest discover -s tests
+PYTHONPATH="$ROOT_DIR/src" python3 -m unittest \
+  tests.test_store tests.test_persistence tests.test_parser -v
 
 [[ -s context.md ]] || fail "context.md is required and must be non-empty"
 [[ -s validation_report.md ]] || fail "validation_report.md is required and must be non-empty"
@@ -25,4 +26,4 @@ for heading in \
   grep -q "$heading" validation_report.md || fail "validation_report.md missing heading: $heading"
 done
 
-echo "[OK] L01 MiniDB validation passed"
+echo "[OK] L01 KVStore validation passed"
