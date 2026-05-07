@@ -10,7 +10,10 @@ required_artifacts:
   - "exercise/context.md"
   - "exercise/validation_report.md"
 validation:
-  entrypoint: "exercise/validators/validate.sh"
+  entrypoints:
+    - "exercise/validators/validate_kvstore.sh"
+    - "exercise/validators/validate_minisql.sh"
+    - "exercise/validators/validate_miniexec.sh"
 notes:
-  - "本目录是示例课程材料，正式版本建议由主讲人维护在 lessons/L01-existing-repo-loop/ 下。"
-  - "练习初始状态包含一个故意保留的 bug，验证脚本初始应失败。"
+  - "包含三个递进练习：A-KVStore（SQL漏WHERE）、B-MiniSQL Parser（词法+语法）、C-MiniExec（执行语义），各5条失败测试。"
+  - "练习初始状态故意保留 bug，验证脚本初始应失败。"
